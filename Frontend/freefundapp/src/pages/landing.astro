@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '../../assets/scss/astro-ecommerce.scss';
+import CardCategory from '../components/products/cardCategory';
+import ProductFeature from '../components/products/productFeature';
+import Navbar from '../components/navbar';
+import StoreDoubleColumn from '../components/store/storeDoubleColumn';
+import TestimonialsFade from '../components/promo/testimonialsFade';
+import PromoSectionLarge from '../components/promo/promoSectionLarge';
+---
+
+<Layout title="Landing Page">
+	<main>
+    <Navbar />
+    <PromoSectionLarge 
+      title={"FreeFund"}
+      full_description={""}  
+      pageHeaderBgImg={"https://images.unsplash.com/photo-1627384113972-f4c0392fe5aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"}
+      pageHeaderMinVh="100vh"
+    />
+    <div class="container my-5">
+    <div class="my-5">
+      <ProductFeature
+        title={"Our mission"}
+        images={data.products[2].images}
+        full_description={""}
+      />
+    </div>
+    <div class="mt-5 mb-10">
+      <TestimonialsFade 
+        pageHeaderBgImg={"https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2729&q=80"} 
+        pageHeaderMinVh="100vh"
+      />
+    </div>
+    
+    <StoreDoubleColumn />
+
+    </div>
+  </main>
+
+</Layout>
