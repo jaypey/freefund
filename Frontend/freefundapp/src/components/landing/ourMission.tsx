@@ -1,20 +1,11 @@
-import ProductFeatureImg from './productFeatureImg';
-import ProductFeatureDetails from './productFeatureDetails';
+import OurMissionImg from './ourMissionImg';
 
 interface Props {
   title: string;
-  images: ({
-    src: string;
-    alt: string;
-  })[];
-  full_description: string;
-  featuresDetails: Map<string,string>;
 }
 
-export default function ProductOverview({
+export default function OurMissionOverview({
   title,
-  images,
-  full_description,
 }: Props) {
 
   return (
@@ -29,7 +20,7 @@ export default function ProductOverview({
           
         </div>
         <div className="col-12 col-lg-6">
-          <ProductFeatureImg images={images}/>
+          <OurMissionImg/>
         </div>
       </div>
     </div>
