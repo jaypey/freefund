@@ -18,19 +18,19 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://github.com/creativetimofficial/astro-ecommerce">
+          <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://github.com/jaypey/freefund">
           <i className="fab text-lg fa-github" aria-hidden="true"></i>
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://discord.com/invite/TGZqBvZB" rel="nofollow" target="_blank">
+          <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://discord.gg/6Gf9w2fMkk" rel="nofollow" target="_blank">
           <i className="fab text-lg fa-discord" aria-hidden="true"></i>
           </a>
         </li>
         </ul>
       <ul className="navbar-nav d-lg-block d-none">
         <li className="nav-item ms-2">
-          <a href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-ecommerce" className="btn btn-sm mb-0 bg-gradient-dark border-radius-sm">Get Started</a>
+          <a href="#ourmission" className="btn btn-sm mb-0 bg-gradient-dark border-radius-sm">Get Started</a>
         </li>
       </ul>
       </div>
