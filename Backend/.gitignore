@@ -1,0 +1,4 @@
+env/
+freefund/db.sqlite3
+freefund/freefund/__pycache__/
+freefund/freefundapi/__pycache__/
